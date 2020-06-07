@@ -4,6 +4,9 @@ $(function () {
   const $rightside = $('#rightside')
   const $body = $('body')
 
+  //替换为https
+  var url=window.location.href;url.indexOf("https")<0&&(url=url.replace("http:","https:"),window.location.replace(url));
+
   /**
    * 當menu過多時，自動適配，避免UI錯亂
     * 傳入 1 sidebar打開時
