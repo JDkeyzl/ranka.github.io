@@ -12,6 +12,9 @@ $(function () {
     * 傳入 1 sidebar打開時
    * 傳入 2 正常狀態下
    */
+
+   
+
   var blogNameWidth = $('#blog_name').width()
   var menusWidth = $('.menus').width()
   var sidebarWidth = $('#sidebar').width()
